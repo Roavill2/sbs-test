@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: docker.io/library/nginx@sha256:b1306efee704017b0e02efadc011d374063a4e9c47b86bdc57744fc3f0666383
+    ports:
+    - 80:80
+    - 443:443
