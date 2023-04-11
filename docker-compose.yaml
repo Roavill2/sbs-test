@@ -1,6 +1,0 @@
-services:
-  nginx:
-    image: docker.io/roavill2/nginx-clone@sha256:bfb112db4075460ec042ce13e0b9c3ebd982f93ae0be155496d050bb70006750
-    ports:
-    - 80:80
-    - 443:443
