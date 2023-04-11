@@ -1,0 +1,11 @@
+env: |
+  type: env
+  logging:
+    logDNA:
+      hostname: syslog-a.us-south.logging.cloud.ibm.com
+      ingestionKey: b8d7ed012207db2ad3c5ce4208aadaf0
+      port: 6514
+workload: |
+  type: workload
+  compose:
+    archive: H4sIAAAAAAAAA+3SwW7DIAwG4Jz7FLxAWxNcSHPaqxDidNGaUkFWtW8/mu00Tdul0jbp/yTLRlgyAvoYXiStQ5zOMcvm5qdj9WhUWOYlF58z1WwqzazNfaFNVaKoFD38JF94zbNPSlUpxvm7vp/2/6ks6TIGye1KqdNhPF3vhVLj5A/Sqn75HZsxbo9jl3y6bZeep/zs651tu/JkVgYRR0zadSRUy+D7QFr3xjFZ41n2gV3X2K4PO+eYh2AGstaaxiyjzjHN+X3qWjXUNvRRM5u2xOq3rwgAAAAAAAAAAAAAAAAAAAAAAOBPegPsyBrSACgAAA==
