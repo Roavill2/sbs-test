@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: uk.icr.io/secure-build-demo/nginx@sha256:a69012aa03c4527d9ebeadc0e29d701a698b4d823a2c9a3a29f8e319e27e5195
+    ports:
+    - 80:80
+    - 443:443

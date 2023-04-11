@@ -1,0 +1,15 @@
+env: |
+  type: env
+  logging:
+    logDNA:
+      hostname: syslog-a.us-south.logging.cloud.ibm.com
+      ingestionKey: b8d7ed012207db2ad3c5ce4208aadaf0
+      port: 6514
+workload: |
+  type: workload
+  auths:
+    uk.icr.io:
+      username: iamapikey
+      password: 7mLf_lE94D9Zhre97Pjf6vnUWNm7GNYw8MEvsLoHm3gZ
+  compose:
+    archive: H4sIAAAAAAAAA+3QS27DIBAGYK9zCi5gBzAY41WugmGaotghgjhqb1/H7aKLVt1Eaiv9nzQPaUYaREj+RLn2ab6kQs2rm6fq0fiqU+pehdH8c91IrSuhlNCyM61pKy6UUbxi/OEv+cJSri4zVuXkbnGa5Hd7P83/qUL5Fj2VYcfY+RjPL/eGsTi7Iw1sOTXR5yamfSG/ZKrHJU6hDjSn/bZ9KM9O6m5wneVCOsdbr7Q0wdJILnhO0gbDxTruRxV62TrprVuzfeqpFZakIS2s3o5eUr6W9/s16/nQ849eqXZYY/fbnwUAAAAAAAAAAAAAAAAAAAAAAPCHvAE7BYlUACgAAA==
